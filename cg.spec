@@ -62,10 +62,14 @@ Dynamic libraries from Cg toolkit.
 Summary:	Header files and static libraries from %{name}
 Group:		Development/C
 Requires:	lib%{name} = %{version}
+Requires:	mesa-devel
 Provides:	%{name}-devel = %{version}-%{release} 
 Provides:	Cg-devel = %{version}-%{release}
 Obsoletes:	%{name}-devel < %{version}-%{release}
 Obsoletes:	Cg-devel < %{version}-%{release}
+
+# libGLU.so doesn't exist as a provide, so we require mesa-devel and add this exception
+%define _requires_exceptions libGLU.so
 
 %description -n	%{develname}
 Binaries (compiler), libraries and includes files for developing programs 
