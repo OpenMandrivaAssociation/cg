@@ -68,7 +68,7 @@ Provides:	Cg-devel = %{version}-%{release}
 Obsoletes:	%{name}-devel < %{version}-%{release}
 Obsoletes:	Cg-devel < %{version}-%{release}
 
-# libGLU.so doesn't exist as a provide, so we require mesa-devel and add this exception
+# libGLU.so doesn'tGL- exist as a provide, so we require GL-devel and add this exception
 %define _requires_exceptions libGLU.so
 
 %description -n	%{develname}
