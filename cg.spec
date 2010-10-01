@@ -1,6 +1,6 @@
 Name:			cg
 Version:		2.2.0010
-Release:		%mkrel 1.1
+Release:		%mkrel 1.2
 
 %define	major		0
 %define	libname		%mklibname cg %major
@@ -62,7 +62,7 @@ Dynamic libraries from Cg toolkit.
 Summary:	Header files and static libraries from %{name}
 Group:		Development/C
 Requires:	lib%{name} = %{version}
-Requires:	mesa-devel
+Requires:	GL-devel
 Provides:	%{name}-devel = %{version}-%{release} 
 Provides:	Cg-devel = %{version}-%{release}
 Obsoletes:	%{name}-devel < %{version}-%{release}
