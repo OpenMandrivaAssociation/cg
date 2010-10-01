@@ -1,6 +1,6 @@
 Name:			cg
 Version:		2.2.0010
-Release:		%mkrel 1
+Release:		%mkrel 1.1
 
 %define	major		0
 %define	libname		%mklibname cg %major
