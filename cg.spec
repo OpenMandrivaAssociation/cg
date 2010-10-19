@@ -1,6 +1,6 @@
 Name:			cg
 Version:		3.0.0007
-Release:		%mkrel 1.2
+Release:		%mkrel 0.1
 
 %define	major		0
 %define	libname		%mklibname cg %major
@@ -109,6 +109,7 @@ export DONT_STRIP=1
 %{_mandir}/man3/*
 %{_mandir}/manCg
 %{_mandir}/manCgFX
+%{_mandir}/man1/*
 
 %files examples
 %defattr(0644,root,root,0755)
