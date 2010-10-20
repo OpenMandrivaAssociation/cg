@@ -10,8 +10,8 @@ Summary:	Cg Toolkit - GPU Shader Authoring Language
 License:	Freeware
 Group:		Development/C
 URL:		http://developer.nvidia.com/object/cg_toolkit.html
-Source0:	http://developer.download.nvidia.com/cg/Cg_2.2/Cg-3.0_July2010_x86.tgz
-Source1:	http://developer.download.nvidia.com/cg/Cg_2.2/Cg-3.0_July2010_x86_64.tgz
+Source0:	http://developer.download.nvidia.com/cg/Cg_3.0/Cg-3.0_July2010_x86.tgz
+Source1:	http://developer.download.nvidia.com/cg/Cg_3.0/Cg-3.0_July2010_x86_64.tgz
 
 Provides:	Cg = %{version}-%{release}
 BuildRequires:	recode
@@ -25,14 +25,14 @@ The award-winning Cg Toolkit enables software developers to add the latest
 interactive effects to real-time applications with a comprehensive solution 
 that works across platforms and graphics API containing:
 
-    * Compiler for the Cg 2.2 language
+    * Compiler for the Cg 3 language
     * Cg/CgFX Runtime libraries for OpenGL and Direct3D
     * User's Manual and documentation on the Cg Language, Runtime APIs, Cg 
        Library, CgFX States, and Cg Profiles
     * Numerous Cg examples
 
 Supporting dozens of different OpenGL and DirectX profile targets, Cg 
-2.2 allows you to incorporate stunning, interactive effects within your 
+3 allows you to incorporate stunning, interactive effects within your 
 3D applications and share them between other Cg applications, across 
 graphics APIs, and most operating systems (Windows 2000, XP, Vista, Mac 
 OS X for Tiger &  Leopard, x86 Linux 32-bit & 64-bit, x86 Solaris 32-bit 
