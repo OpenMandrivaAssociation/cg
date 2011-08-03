@@ -1,5 +1,5 @@
 Name:			cg
-Version:		3.0.0007
+Version:		3.0.0018
 Release:		%mkrel 0.1
 
 %define	major		0
@@ -10,8 +10,8 @@ Summary:	Cg Toolkit - GPU Shader Authoring Language
 License:	Freeware
 Group:		Development/C
 URL:		http://developer.nvidia.com/object/cg_toolkit.html
-Source0:	http://developer.download.nvidia.com/cg/Cg_3.0/Cg-3.0_July2010_x86.tgz
-Source1:	http://developer.download.nvidia.com/cg/Cg_3.0/Cg-3.0_July2010_x86_64.tgz
+Source0:	http://developer.download.nvidia.com/cg/Cg_3.0/Cg-3.0_February2011_x86.tgz
+Source1:	http://developer.download.nvidia.com/cg/Cg_3.0/Cg-3.0_February2011_x86_64.tgz
 
 Provides:	Cg = %{version}-%{release}
 BuildRequires:	recode
