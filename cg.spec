@@ -1,6 +1,6 @@
 Name:			cg
 Version:		3.0.0018
-Release:		0.2
+Release:		0.3
 
 %define	major		0
 %define	libname		%mklibname cg %major
