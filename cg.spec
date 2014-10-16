@@ -11,7 +11,7 @@
 
 Name:		cg
 Version:	3.1.0013
-Release:	1
+Release:	2
 Summary:	Cg Toolkit - GPU Shader Authoring Language
 License:	Freeware
 Group:		Development/C
