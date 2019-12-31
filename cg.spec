@@ -102,7 +102,7 @@ rm -rf %{buildroot}%{_docdir}/%{name}/examples/Trace
 #License doesn't allow us to modify the binaries and libraries
 export DONT_STRIP=1
 
-%multiarch_binaries %{buildroot}%{_bindir}/*
+%{buildroot}%{_bindir}/*
 
 chmod 0755 %{buildroot}%{_libdir}/*
 
