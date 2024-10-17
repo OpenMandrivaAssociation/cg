@@ -15,7 +15,7 @@ Release:	4
 Summary:	Cg Toolkit - GPU Shader Authoring Language
 License:	Freeware
 Group:		Development/C
-URL:		http://developer.nvidia.com/object/cg_toolkit.html
+URL:		https://developer.nvidia.com/object/cg_toolkit.html
 Source0:	http://developer.download.nvidia.com/cg/Cg_2.2/Cg-3.1_April2012_x86.tgz
 Source1:	http://developer.download.nvidia.com/cg/Cg_2.2/Cg-3.1_April2012_x86_64.tgz
 
